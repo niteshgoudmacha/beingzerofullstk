@@ -1,0 +1,17 @@
+<!-- <p>pricing works!</p>
+<a class="btn btn-primary" (click)="fnclick()">get</a> -->
+<h1>Count: {{count}}</h1>
+
+
+<div class="bg-warning">Count: {{x}}</div>
+<div *ngFor="let usr of users">
+    <div class="card" style="width: 18rem;">
+        <img src= {{usr.avatar}} alt="image" class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-title">{{usr.first_name}}</h5>
+        <p>Email: {{usr.email}}</p>
+        <p class="card-text">Hey</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>

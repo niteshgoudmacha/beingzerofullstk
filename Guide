@@ -8,3 +8,5 @@
 5. run "ng build" to get dist folder
 6. change package.json file add scripts, engines
 7. checkpoint save to git
+8. deploy to heroku 
+9. add link bootstrap.min.js / .min.css / jquery.min.js etc.. tags to index.html file 

@@ -1,0 +1,7 @@
+// Angular Stater:
+
+1. create new git repo for angular  and clone it to local machine.
+2. open terminal and type = 
+                ng new ngproject --directory . -g
+3. install express
+4. create server.js file and write express helloworld program

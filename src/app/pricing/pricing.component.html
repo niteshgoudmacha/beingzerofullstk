@@ -4,14 +4,16 @@
 
 
 <div class="bg-warning">Count: {{x}}</div>
-<div *ngFor="let usr of users">
-    <div class="card" style="width: 18rem;">
-        <img src= {{usr.avatar}} alt="image" class="card-img-top">
-        <div class="card-body">
-        <h5 class="card-title">{{usr.first_name}}</h5>
-        <p>Email: {{usr.email}}</p>
-        <p class="card-text">Hey</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="row ">
+    <div *ngFor="let usr of users">
+        <div class="card" style="width: 10rem;">
+            <img src= {{usr.avatar}} alt="image" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">{{usr.first_name}}</h5>
+            <p>Email: {{usr.email}}</p>
+            <p class="card-text">Hey</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
         </div>
     </div>
 </div>

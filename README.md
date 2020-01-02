@@ -1,0 +1,2 @@
+# beingzerofullstk
+intro to angular

@@ -5,3 +5,6 @@
                 ng new ngproject --directory . -g
 3. install express
 4. create server.js file and write express helloworld program
+5. run "ng build" to get dist folder
+6. change package.json file add scripts, engines
+7. checkpoint save to git
